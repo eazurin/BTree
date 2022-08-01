@@ -109,5 +109,6 @@ public class BTreeGeneric<E extends Comparable<E>> {
         System.out.println();
         System.out.println(t.size());
         System.out.println(t.search(1));
+        t.clear();
     }
 }
